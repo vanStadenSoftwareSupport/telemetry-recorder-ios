@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7A8336D41FDE3A6B00E85B2F /* TelemetryRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8336CA1FDE3A6A00E85B2F /* TelemetryRecorder.framework */; };
-		7A8336D91FDE3A6B00E85B2F /* TelemetryRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8336D81FDE3A6B00E85B2F /* TelemetryRecorderTests.swift */; };
 		7A8336E51FDE3ABE00E85B2F /* TelemetryRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8336E41FDE3ABE00E85B2F /* TelemetryRecorder.swift */; };
 		7A8336E71FDE3B2000E85B2F /* TelemetryRecordingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8336E61FDE3B2000E85B2F /* TelemetryRecordingProtocol.swift */; };
 		7A8336E91FDE436500E85B2F /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8336E81FDE436500E85B2F /* Trip.swift */; };
@@ -28,8 +27,6 @@
 		7A8336CA1FDE3A6A00E85B2F /* TelemetryRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TelemetryRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8336CE1FDE3A6A00E85B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A8336D31FDE3A6B00E85B2F /* TelemetryRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelemetryRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A8336D81FDE3A6B00E85B2F /* TelemetryRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryRecorderTests.swift; sourceTree = "<group>"; };
-		7A8336DA1FDE3A6B00E85B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A8336E41FDE3ABE00E85B2F /* TelemetryRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryRecorder.swift; sourceTree = "<group>"; };
 		7A8336E61FDE3B2000E85B2F /* TelemetryRecordingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryRecordingProtocol.swift; sourceTree = "<group>"; };
 		7A8336E81FDE436500E85B2F /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				7A8336CC1FDE3A6A00E85B2F /* TelemetryRecorder */,
-				7A8336D71FDE3A6B00E85B2F /* TelemetryRecorderTests */,
 				7A8336CB1FDE3A6A00E85B2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,15 +77,6 @@
 				7A8336E81FDE436500E85B2F /* Trip.swift */,
 			);
 			path = TelemetryRecorder;
-			sourceTree = "<group>";
-		};
-		7A8336D71FDE3A6B00E85B2F /* TelemetryRecorderTests */ = {
-			isa = PBXGroup;
-			children = (
-				7A8336D81FDE3A6B00E85B2F /* TelemetryRecorderTests.swift */,
-				7A8336DA1FDE3A6B00E85B2F /* Info.plist */,
-			);
-			path = TelemetryRecorderTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A8336D91FDE3A6B00E85B2F /* TelemetryRecorderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
